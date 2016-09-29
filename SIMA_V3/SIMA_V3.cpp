@@ -291,6 +291,7 @@ float SIMA::voltajeBateria(){
 	{
 		digitalWrite(A1, HIGH);//R
 		digitalWrite(A2, LOW);//G
+		digitalWrite(A3, LOW);
 		digitalWrite(A3, LOW);//B
 	}
 	return bat;
